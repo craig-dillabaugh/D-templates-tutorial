@@ -2877,7 +2877,7 @@ static assert(!is( TypeTuple!(int, void, string) == TypeTuple!(int, string)));
 
 #### Example: Variadic Functions
 
-Tuples are very useful to make function templates variadic (that is, accept a different number of parameters). Without restriction on the passe-in types, you will need most of the time another function template to process the arguments. A standard example for this is transforming all parameters into a `string`{.d}:
+Tuples are very useful to make function templates variadic (that is, accept a different number of parameters). Without restrictions on the pass-in types, most of the time you will need another function template to process the arguments. A standard example for this is transforming all parameters into a `string`{.d}:
 
 
 
