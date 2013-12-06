@@ -3879,7 +3879,7 @@ void main()
 
 One day, D will get multiple `alias this`{.d}, since it's described in TDPL ([TDPL](#TDPL)). This will open the possibility of a type being a subtype to many other types at the same time, literally acting as a chameleon depending on circumstances. We will be able to group disparate types and functionalities in one place. I wait for it with increasing interest.[^multiplealiasthis]
 
-[^multiplealiasthis]: This was written in January 2012, let see when we get multiple alias this.
+[^multiplealiasthis]: This was written in January 2012, lets see when we get multiple alias this.
 
 However, as far as I'm concerned, the main interest of this subtyping is not so much the possibility to add `parallel' functionality as encoding information in the type itself. See the next section:
 
