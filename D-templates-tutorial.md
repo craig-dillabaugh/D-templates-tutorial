@@ -3744,7 +3744,7 @@ Nifty, eh? This could be made a bit better by dealing with the capitalization of
 
 > **Unfinished** The idea is to put some functionality inside before (and possibly, after) the dispatching code.
 
-We've seen how to inject code with [mixin templates](#mixin-templates)) or use template class inheritance to modify you classes' code ([Adding Functionalities Through Inheritance](#adding-functionalities-through-inheritance)). We've also seen how you can define a wrapper struct around a range to expose a new iteration scheme for its element ([Struct Flatten](#example-a-concat-flatten-range)). All these idioms are way to modify pre-existing code.
+We've seen how to inject code with [mixin templates](#mixin-templates)) or use template class inheritance to modify your classes' code ([Adding Functionalities Through Inheritance](#adding-functionalities-through-inheritance)). We've also seen how you can define a wrapper struct around a range to expose a new iteration scheme for its element ([Struct Flatten](#example-a-concat-flatten-range)). All these idioms are way to modify pre-existing code.
 
 But what you want to put a logging functionality around a predefined struct, so that any method call is logged? For class, you can inherit from the class and defined a subclass with new, modified, methods. But you have to do that `by hand', so to speak. And for a struct, you're out of luck.
 
