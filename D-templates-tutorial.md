@@ -3984,7 +3984,7 @@ Behind the scene, `octal`{.d} reads its `string`{.d} or `int`{.d} argument and c
 
 ### Encoding Information With Types
 
-This is an extension of the previous section's idea, that can be found for example in [std.range.assumeSorted](http://dlang.org/phobos/std_range.html#assumeSorted) and [std.range.SortedRange](http://dlang.org/phobos/std_range.html#SortedRange). These Phobos constructs encode some information in a type (in this case, the fact than the range is sorted, with an associated predicate). That way, subsequent operations acting on a range can use better algorithm if they know it's sorted.
+This is an extension of the previous section's idea, that can be found for example in [std.range.assumeSorted](http://dlang.org/phobos/std_range.html#assumeSorted) and [std.range.SortedRange](http://dlang.org/phobos/std_range.html#SortedRange). These Phobos constructs encode some information in a type (in this case, the fact than the range is sorted, with an associated predicate). That way, subsequent operations acting on a range can use better algorithms if they know it's sorted.
 
 This kind of encoding can be used for many different schemes:
 
