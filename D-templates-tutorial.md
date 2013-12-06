@@ -3901,7 +3901,7 @@ parallel
 :    A parallel type is neither a subtype not a supertype of the original target (it cannot mimic the target), but it can be created with target values. It's more or less the behaviour of the now-deceased `typedef`{.d} keyword.
 
 independent
-:    An independent type is just there and bears no relationship whatsoever with the original, target type. I cite it there but the interest of defining such a type while still having a 'target' type in mind is limited...
+:    An independent type is just there and bears no relationship whatsoever with the original, target type. I cite it here but the interest of defining such a type while still having a 'target' type in mind is limited...
 
 Here is clean little piece of code from Trass3r that groups all these notions in one template:
 
