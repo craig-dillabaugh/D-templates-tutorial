@@ -3844,7 +3844,7 @@ unittest
 }
 ```
 
-What's the use of such an invisible wrapper? First, it's a perfect subtype, which is the very goal of `alias X this`{.d}. You can add functionalities to your type: new methods, etc. Looks a bit like class inheritance, isn't it? Except that `Transparent`{.d} can wrap around (ie: become the subtype of) any type it's aimed at. If you are interested in multiple ways to subtype a type, see section [Library Typedef](#library-typedef), showing Trass3r's library typedef.
+What's the use of such an invisible wrapper? First, it's a perfect subtype, which is the very goal of `alias X this`{.d}. You can add functionalities to your type: new methods, etc. Looks a bit like class inheritance, doesn't it? Except that `Transparent`{.d} can wrap around (ie: become the subtype of) any type it's aimed at. If you are interested in multiple ways to subtype a type, see section [Library Typedef](#library-typedef), showing Trass3r's library typedef.
 
 Note that this is subtly different from the idea shown in section [Wrapper Templates](#wrapper-templates). In section [Wrapper Templates](#wrapper-templates), use of `opDispatch`{.d} lets the wrapper intercept calls _before_ dispatching them. That way, you can add logging to a type, for instance. This is something you cannot do with `alias this`{.d}. On the other hand, `alias this`{.d} dispatching is automatically done by the compiler, no need to write intercepting code.
 
