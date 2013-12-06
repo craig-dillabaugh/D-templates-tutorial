@@ -4045,7 +4045,7 @@ template MyTemp(A..., B...)
 { ... }
 ```
 
-Alas, two template parameters tuples do not make sense (see [Template Declarations](#template-declarations). But it's not a dead-end. First, you could try to write:
+Alas, two template parameters tuples do not make sense (see [Template Declarations](#template-declarations)). But it's not a dead-end. First, you could try to write:
 
 ```{.d}
 template(AB...)
@@ -4098,7 +4098,7 @@ unittest
 }
 ```
 
-In that case, using `With`{.d} inside `Compare`{.d} let the code be quite easy to use. Notice that the eponymous trick is done only on `With`{.d}, because it's this inner template that we want the result of.
+In that case, using `With`{.d} inside `Compare`{.d} makes the resulting template invocation quite easy to use. Notice that the eponymous trick is done only on `With`{.d}, because it's this inner template that we want the result of.
 
 Going back to `MyTemp`{.d}, using it is slightly more complicated:
 
