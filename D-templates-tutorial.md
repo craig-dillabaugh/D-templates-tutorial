@@ -3325,7 +3325,7 @@ class MyClass(T,U,V)
 }
 ```
 
-As you can see, you put `mixin`{.d} before the declaration and `mixin`{.d} before the instantiation call. All other templates niceties (constraints, default values, ...) are still there for your perusal. Symbols lookup is done in the local scope and the resulting code is included where the call was made, therefore injecting new functionality.
+As you can see, you put `mixin`{.d} before the declaration and `mixin`{.d} before the instantiation call. All other templates niceties (constraints, default values, ...) are still there for your perusal. Symbol lookup is done in the local scope and the resulting code is included where the call was made, therefore injecting new functionality.
 
 As far as I know, there is no special syntax for function, class and struct templates to be mixin templates. You will have to wrap them in a standard `template`{.d} declaration. In the same idea, there is no notion of eponymous trick with mixin templates: there is no question of how to give access to the template's content, since the template is cracked open for you and its very content put in your code.
 
