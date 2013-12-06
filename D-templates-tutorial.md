@@ -3990,7 +3990,7 @@ This kind of encoding can be used for many different schemes:
 
 
 - For a matrix library, you could have a, for example, `assumeHermitian`{.d} or `assumeTriangular`{.d} that just wraps a pre-existing matrix.
-- For a XML/HTML library, you could imagine a `Validated`{.d} struct that's used to indicate, er, validated content. Any external input will have to pass trough a `validate`{.d} function that delivers the `Validated`{.d} object. Subsequent operations will work only on `Validated`{.d} data, not raw data.
+- For a XML/HTML library, you could imagine a `Validated`{.d} struct that's used to indicate, er, validated content. Any external input will have to pass through a `validate`{.d} function that delivers the `Validated`{.d} object. Subsequent operations will work only on `Validated`{.d} data, not raw data.
 - A units library (as in, $kg.m/s^{2}$, not unit-testing) is mainly a bunch of `double`{.d} (or complex) values wrapped in a multi-checked type that allows only some operations, depending on types. `meter(5) + kilo(gram(10))`{.d} is a no-no, but `meter(5)*kilo(gram(10))`{.d} is OK.
 
 
