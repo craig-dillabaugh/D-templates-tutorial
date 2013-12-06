@@ -3877,7 +3877,7 @@ void main()
 }
 ```
 
-One day, D will get multiple `alias this`{.d}, since it's described in TDPL ([TDPL](#TDPL)). This will open the possibility of a type being subtype to many other types at the same time, literally acting as a chameleon depending on circumstances. We will be able to group disparate types and functionalities in one place. I wait for it with increasing interest.[^multiplealiasthis]
+One day, D will get multiple `alias this`{.d}, since it's described in TDPL ([TDPL](#TDPL)). This will open the possibility of a type being a subtype to many other types at the same time, literally acting as a chameleon depending on circumstances. We will be able to group disparate types and functionalities in one place. I wait for it with increasing interest.[^multiplealiasthis]
 
 [^multiplealiasthis]: This was written in January 2012, let see when we get multiple alias this.
 
