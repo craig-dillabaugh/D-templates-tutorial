@@ -3735,7 +3735,7 @@ unittest
 }
 ```
 
-Nifty, eh? This could be a bit better by dealing with the capitalization of the first letter: `getTheString`{.d}, but this is good enough for now. Even better, you could put this code in a mixin template to give this get/set capacity to any struct or class (see section [Mixin Templates](#mixin-templates)).
+Nifty, eh? This could be made a bit better by dealing with the capitalization of the first letter: `getTheString`{.d}, but this is good enough for now. Even better, you could put this code in a mixin template to give this get/set capacity to any struct or class (see section [Mixin Templates](#mixin-templates)).
 
 ## Wrapping and Subtyping: Expanding Types
 
