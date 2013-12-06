@@ -3885,7 +3885,7 @@ However, as far as I'm concerned, the main interest of this subtyping is not so 
 
 ### Library Typedef
 
-As we've seen in the previous section, `alias this`{.d} gives the perfect subtype, able to mimic its parent type in all circumstances. But what if another derived types is needed? D used to have a `typedef`{.d} keyword to defines a new type (as opposed to `alias`{.d} redefinition which just define a new symbol/name for a type), but it was dropped from the language in 2011. However, the need to define new types in relation with pre-existing types is still there. Templates can help in defining a library-level solution, which is described here.
+As we've seen in the previous section, `alias this`{.d} gives the perfect subtype, able to mimic its parent type in all circumstances. But what if another derived type is needed? D used to have a `typedef`{.d} keyword to define a new type (as opposed to `alias`{.d} redefinition which just defined a new symbol/name for a type), but it was dropped from the language in 2011. However, the need to define new types in relation with pre-existing types is still there. Templates can help in defining a library-level solution, which is described here.
 
 Mainly, when a new type is defined in relation with another, already existing, target type, there can be four different relationships shown in the following figure:
 
