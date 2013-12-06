@@ -3378,7 +3378,7 @@ unittest
 }
 ```
 
-The idea to take back home is: the concatenation code is written once. It is then an offered functionality for any client scope (type) that want it. It could easily have been arithmetic operations, `cast`{.d} operations or new methods like `log`{.d}, `register`{.d}, new members or whatever else. Build you own set of mixins and use them freely. And remember they are not limited to classes and structs: you can also use them in functions, module scopes, other templates...
+The idea to take back home is: the concatenation code is written once. It is then an available functionality for any client scope (type) that wants it. It could easily have been arithmetic operations, `cast`{.d} operations or new methods like `log`{.d}, `register`{.d}, new members or whatever else. Build you own set of mixins and use them freely. And remember they are not limited to classes and structs: you can also use them in functions, module scopes, other templates...
 
 > **Limitations.** Mixin templates inject code at the local scope. They cannot add an `invariant`{.d} clause in a class, or `in`{.d}/`out`{.d} clauses in a function. They can be injected into an `invariant`{.d}/`in`{.d}/`out`{.d} clause.
 
@@ -3634,7 +3634,7 @@ void main()
 }
 ```
 
-If you run the previous code, you'll see that a `DeveloperStack`{.d} inherits the mixins from `PersonStack`{.d}: it's both a stack and a publisher. Thanks to `alias typeof(this)`{.d} defined in `StackMixin`{.d}, `ExtFriendStack`{.d} can contain additional information.
+If you run the previous code, you'll see that a `ExtFriendStack`{.d} inherits the mixins from `FriendStack`{.d}: it's both a stack and a publisher. Thanks to `alias typeof(this)`{.d} defined in `StackMixin`{.d}, `ExtFriendStack`{.d} can contain additional information.
 
 ## opDispatch
 
