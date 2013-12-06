@@ -2802,7 +2802,7 @@ unittest
     foreach(index, value; t) // Iteration on values.
                              // value has a different type at each position!
     {
-        bar(t[index]); // use t[iindex], not 'value' to get a ref access
+        bar(t[index]); // use t[index], not 'value' to get a ref access
     }
 
     assert(t[0] == "");
