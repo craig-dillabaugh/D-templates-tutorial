@@ -4119,7 +4119,7 @@ The D grammar does not authorize multiple template calls like the ones on lines 
 
 For function templates, this can give very powerful things. You can have a place in your code where compile-time parameters are given, which delivers another, crafted-just-for-your-needs, template which you can instantiate later on. See for example [String Interpolation](#simple-string-interpolation) and the `interpolate`{.d} function-in-template.
 
-Policies are particularly good with this idiom. Section [Memoizing a Function](#memoizing-a-function) presents a template that transforms a standard D function into a memoized one. Here is what could be done if it was a two-steps template:
+Policies are particularly good with this idiom. Section [Memoizing a Function](#memoizing-a-function) presents a template that transforms a standard D function into a memoized one. Here is what could be done if it was a two-step template:
 
 ```{.d}
 /*
