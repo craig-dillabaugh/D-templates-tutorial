@@ -3304,7 +3304,7 @@ struct Number(T) if (isNumeric!T)
 
 ## Mixin Templates
 
-Up to now, _all_ the templates we have seen are instantiated in the same scope than their declaration. Mixin templates have a different behaviour: the code they hold is placed upon instantiation _right at the call site_. They are thus used in a completely different way than other templates.
+Up to now, _all_ the templates we have seen are instantiated in the same scope as their declaration. Mixin templates have a different behaviour: the code they hold is placed upon instantiation _right at the call site_. They are thus used in a completely different way than other templates.
 
 ### Syntax
 
