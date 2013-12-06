@@ -2852,10 +2852,10 @@ std.typecons.Tuple
 You can get a tuple's type by using `typeof`{.d}`(tuple)`{.d}, like any other D type. There are two limit cases:
 
 One-element tuples.
-:     There is a difference between a tuple of one element and a lone type. You cannot initialize a standard value with a 1-element tuple. You have to extract the first (and only) element before. Likewise, the 1-element tuple has a length and can be sliced: actions that do not make sense for a standard type.
+:     There is a difference between a tuple of one element and a lone type. You cannot initialize a standard value with a 1-element tuple. You have to extract the first (and only) element before. Likewise the 1-element tuple has a length and can be sliced: actions that do not make sense for a standard type.
 
 Zero-element tuples.
-:    It's possible to have an empty tuple, holding zero type, not to be confused with a uninitialized n-elements tuple or the tuple holding `void`{.d} as a type. In fact, the zero-element tuple can only have one value: its initialization value. For this reason, it's sometimes called the Unit type.[^twovalues]
+:    It's possible to have an empty tuple, holding no types, not to be confused with a uninitialized n-elements tuple or the tuple holding `void`{.d} as a type. In fact, the zero-element tuple can only have one value: its initialization value. For this reason, it's sometimes called the Unit type.[^twovalues]
 
 [^twovalues]: `bool` is a type with _two_ values (`true` and `false`). `()`, the empty tuple, is the type that has only _one_ value. And `void` is the type that has _no_ value.
 
