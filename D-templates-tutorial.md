@@ -4013,7 +4013,7 @@ In this case, `MinMax`{.d} means the wrapped value is between `min`{.d} and `max
 Things get interesting when using multiple wrappers inside one another. Imagine we have three wrappers, for numerical ranges with an ordering operation:
 
 
-- `minmaxed`{.d}, which ascertains (well, at least transmits the message) that the wrapped value is between to extrema.
+- `minmaxed`{.d}, which ascertains (well, at least transmits the message) that the wrapped value is between two extrema.
 - `periodic`{.d}, which encodes the idea that a range has a period, accessible through the `.period`{.d} member.
 - `derivative`{.d}, which says successive elements' difference is no more than a `.slope`{.d} number (in absolute).
 
