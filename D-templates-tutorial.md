@@ -3331,7 +3331,7 @@ As far as I know, there is no special syntax for function, class and struct temp
 
 > **TODO** Test for mixin T foo(T)(T t) { return t;}
 
-By the way, you _cannot_ mix a standard template in. It used to be the case, but it's not possible anymore. Now mixin templates and non-mixin ones are strictly separated cousins.
+By the way, you _cannot_ mix a standard template in. It used to be the case, but it's not possible anymore. 
 
 
 ### Mixing Code In
