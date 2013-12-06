@@ -4307,7 +4307,7 @@ auto unique(T, string file = __FILE__, size_t line = __LINE__)(T t)
 }
 ```
 
-As `Unique`{.d}'s name suggests, this is a way to obtain unique instantiations. Except if you call the very same template twice in the same line of your file, this pretty much guarantee your instantiation will be the only one. Remember that template arguments become part of the template scope name when instantiation is done ([Instantiating a Template](#instantiating-a-template)).
+As `Unique`{.d}'s name suggests, this is a way to obtain unique instantiations. Except if you call the very same template twice in the same line of your file, this pretty much guarantees your instantiation will be the only one. Remember that template arguments become part of the template scope name when instantiation is done ([Instantiating a Template](#instantiating-a-template)).
 
 ```{.d}
 module usingunique;
